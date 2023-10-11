@@ -6,7 +6,7 @@ body{
     display:flex;
     padding: 30px;
 }
-.menu-transitions{
+.menu-links{
     padding: 17px;
     margin-left: 30px;
     padding-left: 30px;
@@ -31,13 +31,13 @@ body{
         padding-top: 2px;
         border-radius: 30px;
     }
-.access a{
+.sidebar a{
     display: block;
     padding-top: 20px;
     text-decoration: none;
     color: white;
 }
-.access-html__P{
+.sidebar-html__P{
     padding-left: 40px;
 }
 .article{

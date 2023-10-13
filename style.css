@@ -1,0 +1,96 @@
+body{
+    background-color: rgba(17, 16, 16, 0.884);
+    color: white;
+
+}
+.conteiner{
+    font-size: 17px;
+}
+.menu{
+    display:flex;
+    padding: 30px;
+    flex-direction:row;
+    padding-left: 15%;
+}
+.menu__logo{
+    font-size:20px ;
+}
+.menu-links{
+    padding: 17px;
+    
+    
+}
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    opacity: 30%;
+}
+.menu-profile{
+    padding-left: 15%;
+    margin: 10px;
+    display: flex;
+    
+}
+.menu-profile__theme{
+    display: flex;
+}
+.menu-profile__login{
+    display: flex;
+}
+
+.menu-profile input{
+    width: 40px;
+    border-radius: 30px;
+}
+.menu-profile a,
+    .menu-profile_button button {
+        margin: 0 10px;
+        padding-top: 2px;
+        border-radius: 30px;
+    }
+    .menu-profile_button button:hover{
+        background-color: grey;
+    }
+.sss{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+}
+.sidebar{
+    padding: 20px;
+}
+
+.sidebar-html__h3{
+    position: relative;
+    top: 20px;
+    color: rgb(158, 123, 123)
+}
+.sidebar-html a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    opacity: 50%;
+    
+}
+.article{
+    text-align: center;
+    max-width: 50em;
+    display: flex;
+    flex-direction: column;  
+}
+.article-title h1{
+    color: rgb(158, 123, 123)
+}
+.navigation{
+    padding-left: 10%;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
